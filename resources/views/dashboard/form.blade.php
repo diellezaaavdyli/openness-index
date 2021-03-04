@@ -16,11 +16,11 @@
                           <label class="col-md-3 col-form-label" for="select1">Institution</label>
                           <div class="col-md-9">
                             <select class="form-control" id="select1" name="select1">
-                            <option value="1">Please select the institution!</option>
-                              <option value="1">Kuvendi i Kosoves</option>
-                              <option value="1">Presidenca e Republikës së Kosovës</option>
-                              <option value="2">Ministria e Arsimit, Shkencës dhe Teknologjisë</option>
-                              <option value="3">Ministria e Mjedisit dhe Planifikimit Hapësinor</option>
+                            <option value="1">Ministry of Trade and Industry </option>
+                              <option value="1">Ministry of Economy and Finance, Kosovo </option>
+                              <option value="1">Office of the Prime Minister of Kosovo </option>
+                              <option value="2">Ministry of Health of Kosovo </option>
+                              <option value="3">Ministry for Community and Return of Kosovo</option>
                             </select>
                           </div>
                         </div>
@@ -83,19 +83,15 @@
                           </div>
                         </div>
                         <div class="form-group row">
-                          <label class="col-md-3 col-form-label">Checkboxes</label>
+                          <label class="col-md-3 col-form-label">Is the organogram published on the website?</label>
                           <div class="col-md-9 col-form-label">
                             <div class="form-check checkbox">
                               <input class="form-check-input" id="check1" type="checkbox" value="">
-                              <label class="form-check-label" for="check1">Option 1</label>
+                              <label class="form-check-label" for="check1">Yes</label>
                             </div>
                             <div class="form-check checkbox">
                               <input class="form-check-input" id="check2" type="checkbox" value="">
-                              <label class="form-check-label" for="check2">Option 2</label>
-                            </div>
-                            <div class="form-check checkbox">
-                              <input class="form-check-input" id="check3" type="checkbox" value="">
-                              <label class="form-check-label" for="check3">Option 3</label>
+                              <label class="form-check-label" for="check2">No</label>
                             </div>
                           </div>
                         </div>
