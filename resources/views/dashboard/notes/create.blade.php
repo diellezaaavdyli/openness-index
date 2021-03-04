@@ -24,7 +24,7 @@
 
                             <div class="form-group row">
                                 <label>Date</label>
-                                <input type="date" class="form-control" name="applies_to_date" />
+                                <input type="date" class="form-control" name="applies_to_date" required/>
                             </div>
 
                             <div class="form-group row">
@@ -42,7 +42,7 @@
                             </div>
  
                             <button class="btn btn-block btn-success" type="submit">{{ __('Save and exit') }}</button>
-                            <a href="{{ route('notes.index') }}" class="btn btn-block btn-primary">{{ __('Fill the survey') }}</a> 
+                            <a href="{{ route('notes.index') }}" class="btn btn-block btn-primary">{{ __('Fill the report') }}</a> 
                         </form>
                     </div>
                 </div>
