@@ -32,8 +32,8 @@ if(!function_exists('renderDropdown')){
 
 
         <div class="c-sidebar-brand">
-            <img class="c-sidebar-brand-full" src="{{ url('/assets/brand/flag-logo.svg') }}" width="118" height="46" alt="CoreUI Logo">
-            <img class="c-sidebar-brand-minimized" src="{{ url('assets/brand/coreui-signet-white.svg') }}" width="118" height="46" alt="CoreUI Logo">
+            <img class="c-sidebar-brand-full" src="{{ url('/assets/brand/kosovo-flag.svg') }}" width="118" height="46" alt="Kosovo flag">
+            <img class="c-sidebar-brand-minimized" src="{{ url('assets/brand/kosovo-flag.svg') }}" width="118" height="46" alt="Kosovo flag">
         </div>
         <ul class="c-sidebar-nav">
         @if(isset($appMenus['sidebar menu']))
