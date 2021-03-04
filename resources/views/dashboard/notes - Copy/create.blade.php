@@ -37,12 +37,12 @@
                             </div>
 
                             <div class="form-group row">
-                                <label>Institution type</label>
+                                <label>Note type</label>
                                 <input class="form-control" type="text" placeholder="{{ __('Note type') }}" name="note_type" required>
                             </div>
  
-                            <button class="btn btn-block btn-success" type="submit">{{ __('Save and Exit') }}</button>
-                            <a href="{{ route('notes.index') }}" class="btn btn-block btn-primary">{{ __('Fill the ') }}</a> 
+                            <button class="btn btn-block btn-success" type="submit">{{ __('Add') }}</button>
+                            <a href="{{ route('notes.index') }}" class="btn btn-block btn-primary">{{ __('Return') }}</a> 
                         </form>
                     </div>
                 </div>

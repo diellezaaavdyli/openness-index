@@ -8,7 +8,7 @@
               <div class="col-sm-12 col-md-10 col-lg-8 col-xl-6">
                 <div class="card">
                     <div class="card-header">
-                      <i class="fa fa-align-justify"></i> {{ __('Create Note') }}</div>
+                      <i class="fa fa-align-justify"></i> {{ __('Add new Institution') }}</div>
                     <div class="card-body">
                         <form method="POST" action="{{ route('notes.store') }}">
                             @csrf
@@ -18,12 +18,12 @@
                             </div>
 
                             <div class="form-group row">
-                                <label>Content</label>
-                                <textarea class="form-control" id="textarea-input" name="content" rows="9" placeholder="{{ __('Content..') }}" required></textarea>
+                                <label>Description</label>
+                                <textarea class="form-control" id="textarea-input" name="content" rows="9" placeholder="{{ __('Description') }}" required></textarea>
                             </div>
 
                             <div class="form-group row">
-                                <label>Applies to date</label>
+                                <label>Date</label>
                                 <input type="date" class="form-control" name="applies_to_date" required/>
                             </div>
 
@@ -37,12 +37,12 @@
                             </div>
 
                             <div class="form-group row">
-                                <label>Note type</label>
-                                <input class="form-control" type="text" placeholder="{{ __('Note type') }}" name="note_type" required>
+                                <label>Institution type</label>
+                                <input class="form-control" type="text" placeholder="{{ __('Institution Type') }}" name="note_type" required>
                             </div>
  
-                            <button class="btn btn-block btn-success" type="submit">{{ __('Add') }}</button>
-                            <a href="{{ route('notes.index') }}" class="btn btn-block btn-primary">{{ __('Return') }}</a> 
+                            <button class="btn btn-block btn-success" type="submit">{{ __('Save and exit') }}</button>
+                            <a href="{{ route('notes.index') }}" class="btn btn-block btn-primary">{{ __('Fill the report') }}</a> 
                         </form>
                     </div>
                 </div>

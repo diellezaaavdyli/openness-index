@@ -16,7 +16,7 @@
                         <p> {{ $note->user->name }}</p>
                         <h4>Title:</h4>
                         <p> {{ $note->title }}</p>
-                        <h4>Description</h4> 
+                        <h4>Content:</h4> 
                         <p>{{ $note->content }}</p>
                         <h4>Applies to date:</h4> 
                         <p>{{ $note->applies_to_date }}</p>

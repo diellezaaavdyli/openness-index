@@ -51,7 +51,7 @@
 
                             <div class="form-group row">
                                 <div class="col">
-                                    <label>Institution type</label>
+                                    <label>Note type</label>
                                     <input class="form-control" type="text" placeholder="{{ __('Note type') }}" name="note_type" value="{{ $note->note_type }}" required>
                                 </div>
                             </div>
