@@ -31,7 +31,7 @@ if(!function_exists('renderDropdown')){
 ?>
 
 
-        <div class="c-sidebar-brand">
+        <div class="c-sidebar-brand bg-white">
             <img class="c-sidebar-brand-full" src="{{ url('/assets/brand/kosovo-flag.svg') }}" width="118" height="46" alt="Kosovo flag">
             <img class="c-sidebar-brand-minimized" src="{{ url('assets/brand/kosovo-flag.svg') }}" width="118" height="46" alt="Kosovo flag">
         </div>
@@ -64,5 +64,5 @@ if(!function_exists('renderDropdown')){
             @endforeach
         @endif
         </ul>
-        <button class="c-sidebar-minimizer c-class-toggler" type="button" data-target="_parent" data-class="c-sidebar-minimized"></button>
+        <button class="c-sidebar-minimizer c-class-toggler bg-white" type="button" data-target="_parent" data-class="c-sidebar-minimized"></button>
     </div>
