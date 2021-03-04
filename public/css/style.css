@@ -7862,7 +7862,7 @@ html:not([dir="rtl"]) .custom-select.is-invalid {
 
 .c-header[class*="bg-"] {
   border-color: rgba(0, 0, 21, 0.1);
-  background-color: #f4f8fa;
+  
 }
 
 .c-header.c-header-fixed {
@@ -7874,7 +7874,6 @@ html:not([dir="rtl"]) .custom-select.is-invalid {
 
 .c-header .c-subheader {
   border-bottom: 0;
-  background-color: #f4f8fa;
 }
 
 .c-header-brand {
