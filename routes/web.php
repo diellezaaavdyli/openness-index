@@ -16,6 +16,7 @@ Route::group(['middleware' => ['get.menu']], function () {
     Route::get('/institutions', function () {           return view('dashboard.institutions'); });
     Route::get('/results', function () {           return view('dashboard.results'); });
     Route::get('/reports', function () {           return view('dashboard.reports'); });
+    Route::get('/form', function () {           return view('dashboard.form'); });
 
     Route::group(['middleware' => ['role:user']], function () {
         Route::get('/colors', function () {     return view('dashboard.colors'); });
