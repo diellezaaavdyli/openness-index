@@ -22246,3 +22246,12 @@ body {
   cursor: pointer;
 }
 
+/* Start Home */
+
+.card-height
+{
+  min-height: 241px!important;
+}
+
+/* End of Home */
+
