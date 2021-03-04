@@ -19,12 +19,12 @@
 
                             <div class="form-group row">
                                 <label>Description</label>
-                                <textarea class="form-control" id="textarea-input" name="content" rows="9" placeholder="{{ __('Description') }}" required></textarea>
+                                <textarea class="form-control" id="textarea-input" name="content" rows="9" placeholder="{{ __('Content..') }}" required></textarea>
                             </div>
 
                             <div class="form-group row">
-                                <label>Date</label>
-                                <input type="date" class="form-control" name="applies_to_date" />
+                                <label>Applies to date</label>
+                                <input type="date" class="form-control" name="applies_to_date" required/>
                             </div>
 
                             <div class="form-group row">
@@ -37,12 +37,12 @@
                             </div>
 
                             <div class="form-group row">
-                                <label>Institution type</label>
-                                <input class="form-control" type="text" placeholder="{{ __('Institution Type') }}" name="note_type" required>
+                                <label>Note type</label>
+                                <input class="form-control" type="text" placeholder="{{ __('Note type') }}" name="note_type" required>
                             </div>
  
-                            <button class="btn btn-block btn-success" type="submit">{{ __('Save and exit') }}</button>
-                            <a href="{{ route('notes.index') }}" class="btn btn-block btn-primary">{{ __('Fill the survey') }}</a> 
+                            <button class="btn btn-block btn-success" type="submit">{{ __('Add') }}</button>
+                            <a href="{{ route('notes.index') }}" class="btn btn-block btn-primary">{{ __('Return') }}</a> 
                         </form>
                     </div>
                 </div>
