@@ -22266,3 +22266,23 @@ body {
 
 /* End of Home */
 
+/* Start Results */
+
+.results-card
+{
+  margin:auto;
+  width: 60%;
+  border:none;
+}
+
+.results-card1, .results-card2
+{
+  border-bottom: none;
+}
+.results-card3
+{
+  border-top: none;
+}
+
+/* End of Results */
+
