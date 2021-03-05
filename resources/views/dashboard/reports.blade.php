@@ -1,7 +1,7 @@
 @extends('dashboard.base')
 
 @section('content')
-<table class="table">
+<table class="table reports">
   <thead>
     <tr>
       <th scope="col">#</th>

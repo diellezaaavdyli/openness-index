@@ -22266,23 +22266,18 @@ body {
 
 /* End of Home */
 
-/* Start Results */
+<<<<<<< HEAD
 
-.results-card
-{
-  margin:auto;
-  width: 60%;
-  border:none;
+
+=======
+
+/* Main content padding in every page */
+.c-main{
+  padding: 20px !important;
 }
 
-.results-card1, .results-card2
-{
-  border-bottom: none;
+/* reports table background-color, the class to be changed later*/
+.table{
+  background-color:white;
 }
-.results-card3
-{
-  border-top: none;
-}
-
-/* End of Results */
-
+>>>>>>> 02f750b201f673bfc73a6073145a5d89201420a0
