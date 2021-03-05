@@ -22266,3 +22266,13 @@ body {
 
 /* End of Home */
 
+
+/* Main content padding in every page */
+.c-main{
+  padding: 20px !important;
+}
+
+/* reports table background-color, the class to be changed later*/
+.table{
+  background-color:white;
+}
