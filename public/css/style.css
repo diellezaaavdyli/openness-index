@@ -22266,10 +22266,25 @@ body {
 
 /* End of Home */
 
-<<<<<<< HEAD
+/* Start Results */
 
+.results-card
+{
+  margin:auto;
+  width: 60%;
+  border:none;
+}
 
-=======
+.results-card1, .results-card2
+{
+  border-bottom: none;
+}
+.results-card3
+{
+  border-top: none;
+}
+
+/* End of Results */
 
 /* Main content padding in every page */
 .c-main{
@@ -22277,7 +22292,9 @@ body {
 }
 
 /* reports table background-color, the class to be changed later*/
-.table{
+/* Mos i vendos emrat e tagjeve se tani bon konflikt me pjeset tjera
+qe i vendosi une, kshtu qe shtoja klasen me emer tjeter tani me qata puno ne css :)
+si psh: result e jo table drejt */
+.results{
   background-color:white;
 }
->>>>>>> 02f750b201f673bfc73a6073145a5d89201420a0
