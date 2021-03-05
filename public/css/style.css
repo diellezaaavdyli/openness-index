@@ -22253,5 +22253,16 @@ body {
   min-height: 241px!important;
 }
 
+.home-table
+{
+  /* border-collapse: separate; */
+}
+
+.home-tr
+{
+  background-color: white;
+  border-right: none;
+}
+
 /* End of Home */
 
