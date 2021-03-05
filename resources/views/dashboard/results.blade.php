@@ -9,7 +9,7 @@
     <strong>KOSOVO</strong>
   </div>
   <div class="card-body results-card2">
-    <h5 class="card-title">Open data score of Kosovo is: 34.27 %</h5>
+    <h5 class="card-title"> Kosovo 34.27 %</h5>
     <p class="card-text">Between 46 institutions monitored, 
       Ministry of Local Government Administration got the best score of 75.24 %, 
       while Municipality of Leposaviq got the worst score of 0.00 %</p>
@@ -38,25 +38,25 @@
     animationEnabled: true,
     theme: "light3", // "light1", "light2", "dark1", "dark2"
     title: {
-      text: "Open data score by countries"
+      text: "Open data score by institutions"
     },
     axisY: {
       title: "Score (in %)",
       suffix: "%"
     },
     axisX: {
-      title: "Countries"
+      title: "Institutions"
     },
     data: [{
       type: "column",
       yValueFormatString: "#,##0.0#\"%\"",
       dataPoints: [
-        { label: "Albania", y: 59.1 },	
-        { label: "Bosnia and Herzegovina", y: 54.70 },	
-        { label: "Kosovo", y: 63.40 },
-        { label: "North Macedonia", y: 49.50 },	
-        { label: "Montenegro", y: 86.30 },
-        { label: "Serbia", y: 57.80 }
+        { label: "Assembly of the Republic of Kosovo", y: 59.1 },	
+        { label: "Ministry of Culture, Youth and Sport of Kosovo", y: 54.70 },	
+        { label: "Ministry of Justice of Kosovo", y: 63.40 },
+        { label: "Ministry of Education, Science and Technology of Kosovo", y: 49.50 },	
+        { label: "Office of the Prime Minister of Kosovo", y: 86.30 },
+        { label: "Ministry of Trade and Industry", y: 57.80 }
         
       ]
     }]
