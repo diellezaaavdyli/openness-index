@@ -22292,9 +22292,20 @@ body {
 }
 
 /* reports table background-color, the class to be changed later*/
-/* Mos i vendos emrat e tagjeve se tani bon konflikt me pjeset tjera
-qe i vendosi une, kshtu qe shtoja klasen me emer tjeter tani me qata puno ne css :)
-si psh: result e jo table drejt */
+
+
 .results{
   background-color:white;
 }
+
+/* Start Form Blade */
+
+
+.activebtn:focus
+{
+  background-color: red!important;
+}
+/* Duhet me ndreq bg color  */
+
+
+/* End Form Blade */
