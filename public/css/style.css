@@ -22301,11 +22301,34 @@ body {
 /* Start Form Blade */
 
 
-.activebtn:focus
+/* .activebtn:focus
 {
   background-color: red!important;
-}
+} */
 /* Duhet me ndreq bg color  */
+.color-bg
+{
+  background-color: #006d77;
+  color: white;
+  font-weight: bold;
+}
 
+.subkategori-color
+{
+  background-color: #83c5be;
+  color: white;
+  font-weight: bold;
+}
 
+.form-padding
+{
+  padding: 30px;
+  background-color: #f2f8fa;
+}
+
+.scroll-class-questions 
+{
+    height: 535px;
+    overflow-y: scroll;
+}
 /* End Form Blade */
