@@ -42,7 +42,7 @@
                             </div>
  
                             <button class="btn btn-block btn-success" type="submit">{{ __('Save and exit') }}</button>
-                            <a href="{{ route('notes.index') }}" class="btn btn-block btn-primary">{{ __('Fill the report') }}</a> 
+                            <a href="{{ url('form') }}" class="btn btn-block btn-primary">{{ __('Fill the report') }}</a> 
                         </form>
                     </div>
                 </div>
