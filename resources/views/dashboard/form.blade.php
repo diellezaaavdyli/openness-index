@@ -653,7 +653,7 @@
                     <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
                         <div class="card-body">
                             {{-- Subkategorite per Integrity --}}
-                            <div class="accordion" id="accordionExample2">
+                            <div class="accordion" id="accordionExample3">
                                 <div class="card">
                                     <div class="card-header subkategori-color" id="headingThreeOne" data-toggle="collapse"
                                         data-target="#collapseThreeOne" aria-expanded="false"
@@ -668,7 +668,7 @@
                                     </div>
 
                                     <div id="collapseThreeOne" class="collapse" aria-labelledby="headingThreeOne"
-                                        data-parent="#accordionExample2">
+                                        data-parent="#accordionExample3">
                                         <div class="card-body">
                                             Ketu do te shfaqen Pyetjet e SubKategoria 31
                                         </div>
@@ -686,7 +686,7 @@
                                         </h2>
                                     </div>
                                     <div id="collapseThreeTwo" class="collapse" aria-labelledby="headingThreeTwo"
-                                        data-parent="#accordionExample2">
+                                        data-parent="#accordionExample3">
                                         <div class="card-body">
                                             Ketu do te shfaqen Pyetjet e SubKategoria 32
                                         </div>
@@ -709,7 +709,7 @@
                     <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
                         <div class="card-body">
                             {{-- Subkategorite per Awareness --}}
-                            <div class="accordion" id="accordionExample3">
+                            <div class="accordion" id="accordionExample4">
                                 <div class="card">
                                     <div class="card-header subkategori-color" id="headingFourOne" data-toggle="collapse"
                                         data-target="#collapseFourOne" aria-expanded="false"
@@ -724,7 +724,7 @@
                                     </div>
 
                                     <div id="collapseFourOne" class="collapse" aria-labelledby="headingFourOne"
-                                        data-parent="#accordionExample3">
+                                        data-parent="#accordionExample4">
                                         <div class="card-body">
                                             Ketu do te shfaqen Pyetjet e SubKategoria 41
                                         </div>
@@ -742,7 +742,7 @@
                                         </h2>
                                     </div>
                                     <div id="collapseFourTwo" class="collapse" aria-labelledby="headingFourTwo"
-                                        data-parent="#accordionExample3">
+                                        data-parent="#accordionExample4">
                                         <div class="card-body">
                                             Ketu do te shfaqen Pyetjet e SubKategoria 42
                                         </div>
