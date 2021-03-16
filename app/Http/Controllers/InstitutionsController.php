@@ -79,7 +79,7 @@ class InstitutionsController extends Controller
     public function show($id)
     {
         $institution = Institutions::with('user')->with('status')->find($id);
-        return view('dashboard.institution.institutionsShow', [ 'institution' => $institution ]);
+        return view('dashboard.institutions.institutionShow', [ 'institution' => $institution ]);
     }
 
     /**
