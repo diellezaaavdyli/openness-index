@@ -27,7 +27,7 @@ class DatabaseSeeder extends Seeder
         */
 
         $this->call([
-            UsersAndNotesSeeder::class,
+            UsersAndInstitutionsSeeder::class,
             MenusTableSeeder::class,
             FolderTableSeeder::class,
             ExampleSeeder::class,

@@ -139,7 +139,7 @@ class MenusTableSeeder extends Seeder
         $this->insertLink('guest,user,admin', 'Reports', '/', 'cil-storage');
         $this->insertLink('guest,user,admin', 'Results', '/', 'cil-screen-desktop');
         $this->beginDropdown('admin', 'Settings', 'cil-calculator');
-            $this->insertLink('admin', 'Notes',                   '/notes');
+            $this->insertLink('admin', 'Institutions',                   '/institutions');
             $this->insertLink('admin', 'Users',                   '/users');
             $this->insertLink('admin', 'Edit menu',               '/menu/menu');
             $this->insertLink('admin', 'Edit menu elements',      '/menu/element');
@@ -207,7 +207,7 @@ class MenusTableSeeder extends Seeder
         $this->menuId = DB::getPdo()->lastInsertId();  //set menuId
         $this->beginDropdown('guest,user,admin', 'Pages');
         $id = $this->insertLink('guest,user,admin', 'Dashboard',    '/');
-        $id = $this->insertLink('user,admin', 'Notes',              '/notes');
+        $id = $this->insertLink('user,admin', 'Institutions',              '/institutions');
         $id = $this->insertLink('admin', 'Users',                   '/users');
         $this->endDropdown();
         $id = $this->beginDropdown('admin', 'Settings');

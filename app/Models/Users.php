@@ -12,11 +12,11 @@ class Users extends Model
     use HasFactory;
 
     /**
-     * Get the notes for the users.
+     * Get the institutions for the users.
      */
-    public function notes()
+    public function institutions()
     {
-        return $this->hasMany('App\Models\Notes');
+        return $this->hasMany('App\Models\Institutions');
     }
 
     protected $dates = [

@@ -12,10 +12,10 @@ class Status extends Model
     protected $table = 'status';
     public $timestamps = false; 
     /**
-     * Get the notes for the status.
+     * Get the institutions for the status.
      */
-    public function notes()
+    public function institutions()
     {
-        return $this->hasMany('App\Models\Notes');
+        return $this->hasMany('App\Models\Institutions');
     }
 }

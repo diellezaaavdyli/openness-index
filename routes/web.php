@@ -18,6 +18,8 @@ Route::group(['middleware' => ['get.menu']], function () {
     Route::get('/results', function () {           return view('dashboard.results'); });
     Route::get('/reports', function () {           return view('dashboard.reports'); });
     Route::get('/form', function () {           return view('dashboard.form'); });
+    Route::get('/institutions', function () {           return view('dashboard.institutions.institutionsList'); });
+  
 
     Route::group(['middleware' => ['role:user']], function () {
         Route::get('/colors', function () {     return view('dashboard.colors'); });
@@ -63,7 +65,9 @@ Route::group(['middleware' => ['get.menu']], function () {
             Route::get('/badge', function(){    return view('dashboard.notifications.badge'); });
             Route::get('/modals', function(){   return view('dashboard.notifications.modals'); });
         });
-        Route::resource('notes', 'NotesController');
+        // Route::resource('notes', 'NotesController');
+        Route::resource('institutions', 'InstitutionsController');
+        
     });
     Auth::routes();
 
@@ -78,6 +82,8 @@ Route::group(['middleware' => ['get.menu']], function () {
     ]);
 
     Route::group(['middleware' => ['role:admin']], function () {
+      
+     
         Route::get('/home', function () {           return view('dashboard.homepage'); });
         Route::resource('bread',  'BreadController');   //create BREAD (resource)
         Route::resource('users',        'UsersController')->except( ['create', 'store'] );
