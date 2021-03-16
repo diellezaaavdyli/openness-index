@@ -5,7 +5,7 @@
 @endsection
 
 @section('content')
-    sdfghjkl
+
 
     <div class="container-fluid">
         <div class="fade-in">
