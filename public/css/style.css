@@ -3756,7 +3756,7 @@ html:not([dir="rtl"]) .c-callout-dark {
   border: 1px solid;
   border-radius: 0.25rem;
   background-color: #fff;
-  border-color: #638dd2;
+  border-color: #d8dbe0;
 }
 
 .card > hr {
@@ -7862,7 +7862,6 @@ html:not([dir="rtl"]) .custom-select.is-invalid {
 
 .c-header[class*="bg-"] {
   border-color: rgba(0, 0, 21, 0.1);
-  
 }
 
 .c-header.c-header-fixed {
@@ -8359,7 +8358,6 @@ html:not([dir="rtl"])
   width: 1rem;
   height: 1rem;
   font-size: 1rem;
-  display: none;
 }
 
 .c-icon:not(.c-icon-c-s):not(.c-icon-custom-size).c-icon-2xl {
@@ -10921,7 +10919,6 @@ html:not([dir="rtl"]) .progress-group-icon {
   width: 256px;
   padding: 0;
   box-shadow: none;
-  background-color: white;
 }
 
 .c-sidebar.c-sidebar-right {
@@ -15044,7 +15041,6 @@ html:not([dir="rtl"]) .list-inline {
       flex-grow: 1;
   min-width: 0;
   padding-top: 2rem;
-  background-color: #f4f8fa;
 }
 
 @media (min-width: 768px) {
@@ -22246,89 +22242,3 @@ body {
   cursor: pointer;
 }
 
-/* Start Home */
-
-.card-height
-{
-  min-height: 241px!important;
-}
-
-.home-table
-{
-  /* border-collapse: separate; */
-}
-
-.home-tr
-{
-  background-color: white;
-  border-right: none;
-}
-
-/* End of Home */
-
-/* Start Results */
-
-.results-card
-{
-  margin:auto;
-  width: 60%;
-  border:none;
-}
-
-.results-card1, .results-card2
-{
-  border-bottom: none;
-}
-.results-card3
-{
-  border-top: none;
-}
-
-/* End of Results */
-
-/* Main content padding in every page */
-.c-main{
-  padding: 20px !important;
-}
-
-/* reports table background-color, the class to be changed later*/
-
-
-.results{
-  background-color:white;
-}
-
-/* Start Form Blade */
-
-
-/* .activebtn:focus
-{
-  background-color: red!important;
-} */
-/* Duhet me ndreq bg color  */
-.color-bg
-{
-  background-color: #006d77;
-  color: white;
-  font-weight: bold;
-}
-
-.subkategori-color
-{
-  background-color: #83c5be;
-  color: white;
-  font-weight: bold;
-}
-
-.form-padding
-{
-  padding: 30px;
-  background-color: #f2f8fa;
-}
-
-.scroll-class-questions 
-{
-    height: 535px;
-    overflow-y: scroll;
-}
-/* End Form Blade */
