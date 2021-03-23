@@ -88,38 +88,53 @@
                                                             </div>
                                                         </div>
                                                     </fieldset>
-                                                    <hr>
+                                                    
+
                                                     <div class="row mb-2">
-                                                        <label for="inputText1" class="col-sm-10 col-form-label">Заснованост
-                                                            во македонска правна рамка или Стратегија - Legal or strategy
-                                                            requirement</label>
-                                                        <div class="col-sm-10">
-                                                            <input type="text" class="form-control" id="inputText1">
-                                                        </div>
-                                                    </div>
-                                                    <div class="row mb-3">
-                                                        <label for="inputText2" class="col-sm-10 col-form-label">Заснованост
-                                                            на меѓународни практики - Based on international
-                                                            practices</label>
+                                                        <label for="inputText1" class="col-sm-10 col-form-label"><strong>Remark</strong></label>
                                                         <div class="col-sm-10">
                                                             <input type="text" class="form-control" id="inputText2">
+                                                            
                                                         </div>
                                                     </div>
+                                                    <hr>
+                                                    <br>
+
+                                                    <div class="row mb-2">
+                                                        <label for="inputText1" class="col-sm-10 col-form-label"><strong>Заснованост
+                                                            во македонска правна рамка или Стратегија - Legal or strategy
+                                                            requirement</strong></label>
+                                                        <div class="col-sm-10">
+                                                            <p>Закон за слободен пристап до информации од јавен карактер („Службен весник на РСМ“ бр.101/2019)/Член 10  став 1</p>
+                                                            <a href="http://www.slvesnik.com.mk/Issues/93af90af565443e38308333c2c2146cd.pdf">
+                                                                http://www.slvesnik.com.mk/Issues/93af90af565443e38308333c2c2146cd.pdf
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <br>
+                                                    <div class="row mb-3">
+                                                        <label for="inputText2" class="col-sm-10 col-form-label"><strong>Заснованост
+                                                            на меѓународни практики - Based on international
+                                                            practices</strong></label>
+                                                        <div class="col-sm-10">
+                                                            <p>Toolkit IV on Strategic Municipal Planning and Performance Management at Local  evel</p>
+                                                            <a href="https://rm.coe.int/eloge-benchmark-en-17-09/16808d71d4">
+                                                                https://rm.coe.int/eloge-benchmark-en-17-09/16808d71d4
+                                                            </a><br>
+                                                            <a href="https://rm.coe.int/smp-strategic-municipal-planning/16807470ea">
+                                                                https://rm.coe.int/smp-strategic-municipal-planning/16807470ea
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <br>
 
                                                     <legend class="h6">Извор - Source</legend>
                                                     <div class="form-check">
-                                                        <input class="form-check-input" type="checkbox" value=""
-                                                            id="flexCheckDefault">
-                                                        <label class="form-check-label" for="flexCheckDefault">
-                                                            веб-страница-website
-                                                        </label>
+                                                            <p>веб-страница-website</p>
+                                                        
                                                     </div>
                                                     <div class="form-check">
-                                                        <input class="form-check-input" type="checkbox" value=""
-                                                            id="flexCheckDefault" checked>
-                                                        <label class="form-check-label" for="flexCheckDefault">
-                                                            прашалник-questionnaire
-                                                        </label>
+                                                            <p>прашалник-questionnaire</p>
                                                     </div>
                                                     <hr>
                                                     <button type="button" class="btn btn-outline-info">Зачувај-Save</button>
