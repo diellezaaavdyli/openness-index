@@ -92,6 +92,15 @@
 
                                                     <div class="row mb-2">
                                                         <label for="inputText1"
+                                                            class="col-sm-10 col-form-label"><strong>Source Link</strong></label>
+                                                        <div class="col-sm-10">
+                                                            <input type="text" class="form-control" id="inputText2">
+
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="row mb-2">
+                                                        <label for="inputText1"
                                                             class="col-sm-10 col-form-label"><strong>Remark</strong></label>
                                                         <div class="col-sm-10">
                                                             <input type="text" class="form-control" id="inputText2">
