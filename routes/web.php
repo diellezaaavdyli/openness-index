@@ -19,9 +19,7 @@ Route::group(['middleware' => ['get.menu']], function () {
     Route::get('/reports', function () {           return view('dashboard.reports'); });
     Route::get('/form', function () {           return view('dashboard.form'); });
     Route::get('/institutions', function () {           return view('dashboard.institutions.institutionsList'); });
-    Route::get('/questionnaire', function() {          return view('dashboard.questionnaire.questionnaire');}); 
-    Route::get('/create', function() {          return view('dashboard.questionnaire.create');}); 
-    Route::post('/questionnaires', 'QuestionnaireController@store');
+   
 
     Route::group(['middleware' => ['role:user']], function () {
         Route::get('/colors', function () {     return view('dashboard.colors'); });
