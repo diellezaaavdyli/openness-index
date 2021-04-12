@@ -22237,74 +22237,8 @@ body {
 .c-header.c-header-fixed {
   top: 0px;
 }
+
 .click-file {
   cursor: pointer;
 }
-/* Start Home */
-.card-height
-{
-  min-height: 241px!important;
-}
-.home-table
-{
-  /* border-collapse: separate; */
-}
-.home-tr
-{
-  background-color: white;
-  border-right: none;
-}
-/* End of Home */
-/* Start Results */
-.results-card
-{
-  margin:auto;
-  width: 60%;
-  border:none;
-}
-.results-card1, .results-card2
-{
-  border-bottom: none;
-}
-.results-card3
-{
-  border-top: none;
-}
-/* End of Results */
-/* Main content padding in every page */
-.c-main{
-  padding: 20px !important;
-}
-/* reports table background-color, the class to be changed later*/
-.results{
-  background-color:white;
-}
-/* Start Form Blade */
-/* .activebtn:focus
-{
-  background-color: red!important;
-} */
-/* Duhet me ndreq bg color  */
-.color-bg
-{
-  background-color: #006D77;
-  color: white;
-  font-weight: bold;
-}
-.subkategori-color
-{
-  background-color: #83C5BE;
-  color: white;
-  font-weight: bold;
-}
-.form-padding
-{
-  padding: 30px;
-  background-color: #F2F8FA;
-}
-.scroll-class-questions 
-{
-    height: 535px;
-    overflow-y: scroll;
-}
-/* End Form Blade */
+
